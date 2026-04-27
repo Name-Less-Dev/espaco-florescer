@@ -1,36 +1,153 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌸 Espaço Florescer — Landing Page
 
-## Getting Started
+Landing page moderna, elegante e altamente profissional desenvolvida para a clínica **Espaço Florescer – Neurodesenvolvimento, Psicologia e Aprendizagem**.
 
-First, run the development server:
+O projeto foi pensado com foco em **UX, conversão e experiência emocional acolhedora**, transmitindo confiança, cuidado e sofisticação.
+
+---
+
+## ✨ Visão do Projeto
+
+A proposta da landing page é criar uma experiência digital que reflita os valores da clínica:
+
+- acolhimento humano
+- ciência aplicada ao desenvolvimento
+- cuidado individualizado
+- confiança e profissionalismo
+- sensibilidade no atendimento
+
+---
+
+## 🚀 Stack Utilizada
+
+- ⚛️ React (Next.js App Router)
+- 🟦 TypeScript
+- 🎨 Tailwind CSS (v4)
+- 🎞 Framer Motion
+- 🎯 Lucide Icons
+
+---
+
+## 🧠 Arquitetura do Projeto
+
+Estrutura pensada para escalabilidade e manutenção simples:
+
+- Componentização real por seções
+- Design system centralizado
+- Layout responsivo mobile-first
+- Código limpo e organizado
+- Separação clara entre UI e lógica
+
+---
+
+## 🎨 Design System
+
+### Paleta de cores
+
+- Rosa suave (primária)
+- Vinho (destaques emocionais)
+- Lilás claro (suavidade)
+- Branco (base)
+- Tons neutros (textos e fundos)
+- Verde suave (detalhes de confiança)
+
+---
+
+### Estilo visual
+
+- Minimalista e premium
+- Espaçamento generoso
+- Bordas arredondadas suaves
+- Sombras leves e elegantes
+- Animações sutis
+- Hierarquia tipográfica clara
+
+---
+
+## 📌 Estrutura da Landing Page
+
+### 🏠 Hero Section
+Mensagem principal com impacto emocional e foco em acolhimento e desenvolvimento infantil.
+
+### 👩‍⚕️ Sobre
+Apresentação institucional da clínica com foco em propósito e abordagem humanizada.
+
+### 🧠 Serviços
+Apresentação clara das principais áreas de atuação:
+- Avaliação neuropsicopedagógica
+- Apoio ao desenvolvimento
+- Orientação parental
+
+### ✨ CTA (Call to Action)
+Seção emocional com foco em conversão para agendamento via WhatsApp.
+
+### 📞 Contato
+Informações completas com:
+- endereço
+- horários
+- WhatsApp
+- Instagram
+- mapa integrado
+
+### 🦶 Footer
+Encerramento elegante reforçando identidade da marca e navegação auxiliar.
+
+---
+
+## ⚡ Funcionalidades
+
+- Scroll suave entre seções
+- Botão flutuante de WhatsApp
+- Animações com Framer Motion
+- Layout responsivo completo
+- Microinterações sutis
+- SEO básico otimizado
+- Links diretos para WhatsApp e Google Maps
+
+---
+
+## 📱 Responsividade
+
+O projeto foi desenvolvido com abordagem mobile-first:
+
+- 100% responsivo
+- otimizado para celulares
+- adaptação de grids e tipografia
+- navegação fluida em dispositivos pequenos
+
+---
+
+## 🎯 Objetivo Final
+
+Criar uma landing page que gere a sensação:
+
+> “Essa clínica transmite confiança, cuidado e profissionalismo. Quero entrar em contato.”
+
+---
+
+## 💡 Aprendizados do Projeto
+
+Este projeto explora:
+
+- UI/UX aplicado a serviços de saúde
+- design emocional
+- conversão em landing pages
+- arquitetura moderna com Next.js App Router
+- design system escalável
+
+---
+
+## 🛠 Como rodar o projeto
 
 ```bash
+# instalar dependências
+npm install
+
+# rodar servidor de desenvolvimento
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# build para produção
+npm run build
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# iniciar produção
+npm start
