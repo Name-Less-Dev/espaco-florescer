@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #7B2D52;
+  --color-primary-light: #A45778;
+
+  --color-secondary: #EFC7D7;
+  --color-soft: #FAF7F8;
+  --color-lilac: #EEE8F7;
+  --color-nude: #F5ECE8;
+  --color-accent: #DDE9DF;
+
+  --color-dark: #2A1E24;
+  --color-muted: #6E6368;
+  --color-line: #EFE8EB;
+
+  --radius-sm: 14px;
+  --radius-md: 20px;
+  --radius-lg: 28px;
+
+  --shadow-soft: 0 10px 30px rgba(28, 15, 22, 0.06);
+  --shadow-card: 0 18px 50px rgba(28, 15, 22, 0.08);
+  --shadow-float: 0 24px 70px rgba(28, 15, 22, 0.12);
+
+  --font-sans: "Inter", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: white;
+  color: var(--color-dark);
+  font-family: var(--font-sans);
+}
+
+::selection {
+  background: var(--color-secondary);
+  color: var(--color-primary);
+}
+
+section {
+  padding-block: 7rem;
+}
+
+.container-premium {
+  width: 100%;
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  section {
+    padding-block: 9rem;
+  }
+
+  .container-premium {
+    padding-inline: 2rem;
+  }
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+a {
+  transition: all 0.2s ease;
+}
+
+button {
+  transition: all 0.25s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
